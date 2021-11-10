@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cpr_plugin_tools</name>
+  <version>0.1.0</version>
+  <description>
+    Common utility classes/methods for all plugins:
+    - getSingleParam(): get and store parameters from an SDF definition according to variable type
+  </description>
+
+  <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
+  <author email="dniewinski@clearpathrobotics.com">Dave Niewinski</author>
+  <author email="jliviero@clearpath.ai">Jordan Liviero</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>sdformat</depend>
+  <depend>gazebo_ros</depend>
+
+  <test_depend>roslint</test_depend>
+
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" />
+  </export>
+
+</package>
