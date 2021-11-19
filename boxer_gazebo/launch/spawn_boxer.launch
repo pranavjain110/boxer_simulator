@@ -6,7 +6,7 @@
   <arg name="z" default="0.5"/>
   <arg name="yaw" default="0.0"/>
 
-  <arg name="serial_no"   default="$(optenv BOXER_SERIAL_NO A31_0123456789)" />
+  <arg name="serial_no"   default="$(optenv ROS_ROBOT_SERIAL_NO A31_0123456789)" />
   <arg name="api_version" default="$(optenv BOXER_API_VERSION v1_1)" />
 
   <!-- Launch all nodes within the specified namespace. Prevents node namespace collisions in the multi-robot case -->
