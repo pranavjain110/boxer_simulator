@@ -2,6 +2,12 @@
 Changelog for package boxer_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2021-11-08)
+------------------
+
+* Initial commit of for Noetic
+* Contributors: Chris Iverach-Brereton
+
 0.0.6 (2018-11-15)
 ------------------
 * Cleaned up launches, model colours, and camera location

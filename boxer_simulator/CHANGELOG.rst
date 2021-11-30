@@ -2,6 +2,12 @@
 Changelog for package boxer_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2021-11-08)
+------------------
+
+* Initial commit of for Noetic
+* Contributors: Chris Iverach-Brereton
+
 0.0.6 (2018-11-15)
 ------------------
 
