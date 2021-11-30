@@ -2,6 +2,9 @@
 Changelog for package boxer_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.0 (2021-11-08)
 ------------------
 

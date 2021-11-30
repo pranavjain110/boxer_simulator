@@ -2,6 +2,11 @@
 Changelog for package boxer_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Rename BOXER_SERIAL_NO to ROS_ROBOT_SERIAL_NO to match with incoming changes to the ISO
+* Contributors: Chris Iverach-Brereton
+
 0.1.0 (2021-11-08)
 ------------------
 
