@@ -37,4 +37,13 @@
   <include file="$(find boxer_gazebo)/launch/spawn_boxer.launch" >
     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
   </include>
+
+  <!-- Run the map server -->
+  <arg name="map_file" default="$(find boxer_navigation)/maps/boxer_world.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+  <!--- Run AMCL -->
+  <include file="$(find boxer_navigation)/launch/include/amcl.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find boxer_navigation)/launch/include/move_base.launch" />
 </launch>
